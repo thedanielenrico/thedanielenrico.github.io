@@ -6,30 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Daniel Enrico</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
         body {
-            background-image: url(topography.png);
-        }
-
-        nav {
-            height: 53px;
-        }
-
-        #navBar-name {
-            background-color: #4aaaa5;
-            padding: 15px;
-            height: 53px;
-            margin: 0px;
-        }
-
-        #jumbotron-content {
-            color: #4aaaa5;
-        }
-
-        footer {
-            background-color: #5c918e;
+            border-style: solid;
+            border-width: 10px;
         }
 
         img {
@@ -40,46 +22,26 @@
 
 <body>
     <!-- NavBar -->
-    <div class="container-fluid p-0">
-        <nav class="navbar navbar-light bg-white row p-0 m-0">
-            <h1 class="navbar-brand navbar-text text-white col-sm-1.5 ml-sm-4" id="navBar-name">
-                Daniel Enrico
-            </h1>
-            <ul class="m-0 col-sm-4">
-                <li class="d-inline">
-                    <a href="index.html" class="text-muted border-right pr-sm-2 mr-sm-2 p-auto">
-                        About
-                    </a>
-                </li>
-                <li class="d-inline">
-                    <a href="portfolio.html" class="text-muted border-right pr-sm-2 mr-sm-2 p-auto">
-                        Projects
-                    </a>
-                </li>
-                <!-- <li class="d-inline">
-                    <a href="contact.html" class="text-muted border-right pr-sm-2 mr-sm-2 p-auto">
-                        Contact
-                    </a>
-                </li> -->
-                <li class="d-inline">
-                    <a target="_blank" href="https://github.com/thedanielenrico"
-                        class="text-muted border-right pr-sm-2 mr-sm-2 p-auto">
-                        GitHub
-                    </a>
-                </li>
-                <li class="d-inline">
-                    <a target="_blank" href="https://www.linkedin.com/in/daniel-enrico-50a38216b/"
-                        class="text-muted pr-sm-2 mr-sm-2 p-auto">
-                        LinkedIn
-                    </a>
-                </li>
-
-            </ul>
-        </nav>
-    </div>
-    <hr class="m-0">
-    <!-- Main Body Content -->
     <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light p-5">
+            <a class="navbar-brand" href="index.html">Daniel Enrico</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="portfolio.html">Projects</a>
+                    <a target="_blank" class="nav-item nav-link" href="https://github.com/thedanielenrico">GitHub</a>
+                    <a target="_blank" class="nav-item nav-link"
+                        href="https://www.linkedin.com/in/daniel-enrico-50a38216b/">LinkedIn</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Main Body Content -->
+
         <div class="jumbotron bg-white m-5 p-4 border rounded-0">
             <div class="row">
                 <h2 id="jumbotron-content" class="col-sm-12">
@@ -110,8 +72,8 @@
                                 Gemstone Counting Game
                             </p>
                             <p class="card-text text-center">
-                                    <a href="https://github.com/thedanielenrico/unit-4-game" target="_blank">GitHub</a>
-                                </p>
+                                <a href="https://github.com/thedanielenrico/unit-4-game" target="_blank">GitHub</a>
+                            </p>
                         </div>
                     </a>
                 </div>
@@ -126,8 +88,8 @@
                                 Science Trivia
                             </p>
                             <p class="card-text text-center">
-                                    <a href="https://github.com/thedanielenrico/TriviaGame" target="_blank">GitHub</a>
-                                </p>
+                                <a href="https://github.com/thedanielenrico/TriviaGame" target="_blank">GitHub</a>
+                            </p>
                         </div>
                     </a>
                 </div>
@@ -139,8 +101,8 @@
                                 Giphy API
                             </p>
                             <p class="card-text text-center">
-                                    <a href="https://github.com/thedanielenrico/GifTastic" target="_blank">GitHub</a>
-                                </p>
+                                <a href="https://github.com/thedanielenrico/GifTastic" target="_blank">GitHub</a>
+                            </p>
                         </div>
                     </a>
                 </div>
@@ -155,30 +117,30 @@
                                 Train Scheduler
                             </p>
                             <p class="card-text text-center">
-                                    <a href="https://github.com/thedanielenrico/TrainTime" target="_blank">GitHub</a>
-                                </p>
+                                <a href="https://github.com/thedanielenrico/TrainTime" target="_blank">GitHub</a>
+                            </p>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
-        <!-- Footer -->
-        <div class="fixed-bottom m-0" style="height: 53px;">
-            <footer class="text-center" style="height: 53px;">
-                <small class="text-white">&copy;Copyright</small>
+        <div>
+            <footer class="border-top m-5 text-center">
+                <p class="p-4 p-t">
+                    &copy; Copyright Daniel Enrico 2019
+                </p>
+
             </footer>
         </div>
-        <!-- Div added to push footer down -->
-        <div style="visibility: hidden;">Empty div</div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
 
