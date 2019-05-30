@@ -1,0 +1,7 @@
+.overlay {
+    opacity: 0;
+}
+
+.hover:hover .overlay{
+    opacity: 1;
+}
