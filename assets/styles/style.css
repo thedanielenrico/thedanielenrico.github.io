@@ -5,6 +5,13 @@ body {
     color: rgb(92, 102, 112);
     font-family: 'Raleway', sans-serif;
 }
+a {
+    color: rgb(92, 102, 112);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(92, 102, 112);
+}
 .navIcon {
     font-size: 30px;
 }
