@@ -45,6 +45,7 @@ img {
 .image:hover img {
     opacity: 0.3;
     filter: brightness(70%);
+    transition: 0.5s;
 }
 .image:hover .link {
     opacity: 1;
@@ -55,8 +56,21 @@ img {
     background-color: white;
     color: black;
     border-radius: 25%;
+    margin: 4px;
+}
+.gitIcon {
+    transition: transform 0.5s;
+}
+.openIcon {
+    transition: transform 0.5s;
 }
 .gitIcon:hover {
     background-color: black;
     color: white;
+    transform: rotateY(180deg)
+}
+.openIcon:hover {
+    background-color: black;
+    color: white;
+    transform: rotateY(360deg)
 }
